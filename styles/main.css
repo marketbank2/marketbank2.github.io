@@ -1249,7 +1249,30 @@ main {
     text-align: center;
     font-weight: 400;
     display: block;
-    color: #fefefe;
+    color: #080858;
+    transition: color .1s;
+    font-style: italic;
+	line-height: 27px
+}
+
+
+.b_main_faq {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    color: #145282;
+    transition: color .1s;
+    font-style: italic;
+	line-height: 27px
+}
+
+.b_main_faq2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    color: #989858;
     transition: color .1s;
     font-style: italic;
 	line-height: 27px
@@ -1313,8 +1336,18 @@ a:hover {
     padding: 0 0 20px 0;
     max-width: 80%;
     border-bottom: solid 1px;
-    margin: 0 auto
+    margin: 0 auto;
 }
+
+.election_description_i {
+    font-size: 23px;
+    padding: 0 0 20px 0;
+    max-width: 80%;
+    border-bottom: solid 1px;
+    margin: 0 auto;
+	color: #089858
+}
+
 
 .l_election {
     padding: 30px 15px 60px 15px
@@ -1602,7 +1635,7 @@ a:hover {
 .js_contract-address {
     display: block;
     padding-top: 0;
-    color: #ef656c;
+    color: #08086C;
     font-weight: 100;
     transition: color .1s ease-in
 }
@@ -1618,7 +1651,7 @@ a:hover {
 }
 
 .js_contract-address:visited {
-    color: #ef656c;
+    color: #181828;
     text-decoration: none
 }
 
