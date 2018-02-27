@@ -717,7 +717,7 @@ $('.graph__percent--0').attr("title", $( ".num_a em" ).text()).tooltipster({
 });
 
 var now = new Date(),
-    otherDay =  new Date(2018,27,2)
+    otherDay =  new Date(2018,28,2)
 var today = new Date(now.getFullYear(), now.getMonth(), now.getDate()).valueOf()
 console.log(today)
 var other = otherDay.valueOf()
