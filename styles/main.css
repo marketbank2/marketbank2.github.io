@@ -1273,7 +1273,8 @@ a:hover {
     background: url(../images/bg_hero_now.jpg) center center no-repeat;
     position: relative;
     padding: 50px 0 80px 0;
-    overflow: hidden
+    overflow: hidden;
+	background-size: cover;
 }
 
 .l_header:before {
